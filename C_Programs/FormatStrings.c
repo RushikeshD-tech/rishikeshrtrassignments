@@ -3,7 +3,7 @@ int main(void)
 {
 	//code
     printf("\n\n");
-    printf("**************************************************************************************");
+    printf("**************************************************************");
     printf("\n\n");
 
     printf("Hello World !!!\n\n");
@@ -12,7 +12,7 @@ int main(void)
 	printf("Integer Decimal Value Of 'a' = %d\n", a_RAD);
 	printf("Integer Octal Value Of 'a' = %o\n", a_RAD);
 	printf("Integer Hexadecimal Value Of 'a' (Hexadecimal Letters In Lower Case) = %x\n", a_RAD);
-	printf("Integer Hexadecimal Value Of 'a' (Hexadecimal Letters In Lower Case) = %X\n\n", a_RAD);
+	printf("Integer Hexadecimal Value Of 'a' (Hexadecimal Letters In Upper Case) = %X\n\n", a_RAD);
 
 	char ch_RAD = 'A';
 	printf("Character ch_RAD = %c\n", ch_RAD);
