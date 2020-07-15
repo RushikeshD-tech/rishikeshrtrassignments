@@ -1,4 +1,4 @@
-// Headers
+// Headers   // NEW CODE 
 #include<windows.h>
 #include<stdio.h>
 #include"OGLWindow.h"
@@ -29,7 +29,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpszCmdLi
 {
 	//function declarations 
 	void Initialize(void);
-	//void Display(void);
+	void Display(void);
 	
 
 	// variable declarations
@@ -108,7 +108,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpszCmdLi
 			{
 				//HERE YOU SHOULD CALL UPDATE FUNCTION FOR OPENGL RENDERING.........
 				//HERE YOU SHOULD CALL DISPLAY FUNCTION FOR OPENGL RENDERING...........
-				//Display();
+				Display();
 			}
 		}
 
@@ -123,11 +123,9 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT iMsg, WPARAM wParam, LPARAM lParam)
 	void ToggleFullScreen(void);
 	void Resize(int, int);
 	void unintialize(void);
-	void Display(void);
+	//void Display(void);
 	// local variable declarations
-	//HDC hdc;
-	//PAINTSTRUCT ps;
-	//RECT rc;
+	
 	TCHAR str[] = TEXT("Hello World!!!");
 
 	switch (iMsg)
@@ -143,9 +141,9 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT iMsg, WPARAM wParam, LPARAM lParam)
 	case WM_SIZE:
 		Resize(LOWORD(lParam), HIWORD(lParam));
 		break;
-	case WM_PAINT:
-		Display();
-		break;
+	//case WM_PAINT:
+		//Display();
+		//break;
 	
 	case WM_KEYDOWN:
 		switch (wParam)
@@ -281,7 +279,7 @@ void Resize(int width, int height)
  void unintialize(void)
  {
 	//code
-	 if (gbFullscreen = true)
+	 if (gbFullscreen == true)
 	 {
 		 dwStyle = GetWindowLong(ghwnd, GWL_STYLE);
 		 SetWindowLong(ghwnd, GWL_STYLE, dwStyle & ~WS_OVERLAPPEDWINDOW);
