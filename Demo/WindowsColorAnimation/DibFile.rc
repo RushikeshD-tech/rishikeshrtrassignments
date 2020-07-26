@@ -1,0 +1,14 @@
+#include "DibFile.h"
+MYICON ICON imageres_78.ico
+MYIMAGE BITMAP FinalWin10.bmp
+MYIMAGE1 BITMAP SystemReq.bmp
+MYIMAGE BITMAP2 windows8.bmp
+
+
+
+
+
+
+
+
+
