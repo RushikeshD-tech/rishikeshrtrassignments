@@ -97,6 +97,12 @@ void MathematicalOperations(int x_RAD, int y_RAD, int* sum_RAD, int* difference_
 	*product_RAD = x_RAD * y_RAD; 
 	*quotient_RAD = x_RAD / y_RAD; 
 	*remainder_RAD = x_RAD % y_RAD; 
+
+
 }
+
+
+
+
 
 
