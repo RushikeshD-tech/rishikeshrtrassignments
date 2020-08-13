@@ -3,9 +3,11 @@
 #include<stdio.h>
 #include"DoubleBuffer.h"
 #include<gl/GL.h>
+//#include<math.h>
 #pragma comment(lib, "Opengl32.lib") //lib-import library
 #define Win_Width 800
 #define Win_Height 600
+//#define GL_PI 3.1415f
 
 // global function declarations
 LRESULT CALLBACK WndProc(HWND, UINT, WPARAM, LPARAM);
@@ -280,7 +282,6 @@ void Display(void)
 	glClear(GL_COLOR_BUFFER_BIT);
 	glMatrixMode(GL_MODELVIEW);
 	glLoadIdentity();
-
 	glBegin(GL_TRIANGLES);
 
 	glColor3f(1.0f, 0.0f, 0.0f);
@@ -297,6 +298,7 @@ void Display(void)
 	SwapBuffers(ghdc);
 
 }
+
 void unintialize(void)
 {
 	//code
