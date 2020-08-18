@@ -1,0 +1,2 @@
+C:\MyProjects\rishikeshrtrassignments\Windows\GUIFileIO\GUIFileIO\Debug\GUIFileIO.exe
+C:\MyProjects\rishikeshrtrassignments\Windows\GUIFileIO\GUIFileIO\Debug\GUIFileIO.pdb

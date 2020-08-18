@@ -1,0 +1,4 @@
+C:\Users\meet2\source\repos\GUIIcon\GUIIcon.cpp\Debug\GUIIcon.cpp.exe
+C:\Users\meet2\source\repos\GUIIcon\GUIIcon.cpp\Debug\GUIIcon.cpp.pdb
+C:\MyProjects\rishikeshrtrassignments\Windows\GUIIcon\GUIIcon.cpp\Debug\GUIIcon.cpp.exe
+C:\MyProjects\rishikeshrtrassignments\Windows\GUIIcon\GUIIcon.cpp\Debug\GUIIcon.cpp.pdb

@@ -1,0 +1,4 @@
+C:\Users\rhish\source\repos\WindowsFullscreen\Debug\WindowsFullscreen.exe
+C:\Users\rhish\source\repos\WindowsFullscreen\Debug\WindowsFullscreen.pdb
+C:\MyProjects\rishikeshrtrassignments\Windows\WindowFullscreen\WindowsFullscreen\Debug\WindowsFullscreen.exe
+C:\MyProjects\rishikeshrtrassignments\Windows\WindowFullscreen\WindowsFullscreen\Debug\WindowsFullscreen.pdb

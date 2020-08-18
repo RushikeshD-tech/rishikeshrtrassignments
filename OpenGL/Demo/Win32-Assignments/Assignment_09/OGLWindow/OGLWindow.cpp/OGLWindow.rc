@@ -1,0 +1,4 @@
+#include "OGLWindow.h"
+
+MYICON ICON imageres_78.ico
+

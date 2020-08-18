@@ -1,0 +1,3 @@
+#include "GUIIcon.h"
+
+MYICON ICON imageres_78.ico
